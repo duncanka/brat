@@ -1841,9 +1841,9 @@ var AnnotatorUI = (function($, window, undefined) {
       }
 
       var spanFormSubmitRadio = function(evt) {
+        showValidAttributes();
+        showValidNormalizations();
         if (Configuration.confirmModeOn) {
-          showValidAttributes();
-          showValidNormalizations();
           $('#span_form-ok').focus();
         } else {
           spanFormSubmit(evt, $(evt.target));
