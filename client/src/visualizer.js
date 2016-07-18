@@ -340,7 +340,7 @@ var Visualizer = (function($, window, undefined) {
       var nestingAdjustYStepSize = 2; // size of height adjust for nested/nesting spans
       var nestingAdjustXStepSize = 1; // size of height adjust for nested/nesting spans
 
-      var highlightSequence = '#FF9632;#FFCC00;#FF9632'; // yellow - deep orange
+      var highlightSequence = '#bb99ff'; // just purple, thanks. no flashing
       //var highlightSequence = '#FFFC69;#FFCC00;#FFFC69'; // a bit toned town
       var highlightSpanSequence = highlightSequence;
       var highlightArcSequence =  highlightSequence;
@@ -348,7 +348,7 @@ var Visualizer = (function($, window, undefined) {
       var highlightDuration = '2s';
       // different sequence for "mere" matches (as opposed to "focus" and
       // "edited" highlights)
-      var highlightMatchSequence = '#FFFF00'; // plain yellow
+      var highlightMatchSequence = '#bb99ff'; // purple
 
       var fragmentConnectorDashArray = '1,3,3,3';
       var fragmentConnectorColor = '#000000';
